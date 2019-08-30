@@ -101,8 +101,17 @@ ENV/
 .mypy_cache/
 
 # samples
-gym_malware/envs/utils/samples_all/
+gym_malware/envs/utils/samples/*
 
 # model outputs
 *.h5f
 
+# binary output
+*_output*
+evaded
+tmp
+
+# models
+models/*
+
+.vscode
